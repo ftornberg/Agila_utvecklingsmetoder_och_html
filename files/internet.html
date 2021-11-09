@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_io/site.webmanifest">
+
+    <title>Internet</title>
+</head>
+
+<body>
+    <!--Navigeringsmenyn-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" title="Navigering">Navigering</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html" title="Hem">Hem</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="klienttekniker" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" title="Klienttekniker">
+                            Klienttekniker
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="klienttekniker">
+                            <li><a class="dropdown-item" href="klienttekniker.html#html" title="HTML">HTML</a></li>
+                            <li><a class="dropdown-item" href="klienttekniker.html#css" title="CSS">CSS</a></li>
+                            <li><a class="dropdown-item" href="klienttekniker.html#javascript"
+                                    title="JavaScript">JavaScript</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="projektmetodik" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" title="Projektmetodik">
+                            Projektmetodik
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="projektmetodik">
+                            <li><a class="dropdown-item" href="projektmetodik.html"
+                                    title="Vattenfallsmetodik">Vattenfallsmetodik</a></li>
+                            <li><a class="dropdown-item" href="projektmetodik.html#agil" title="Agil utveckling">Agil
+                                    utveckling</a></li>
+                            <li><a class="dropdown-item" href="projektmetodik.html#scrum"
+                                    title="Hur man arbetar i SCRUM">Hur man arbetar i Scrum</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="internet" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" title="Internet">
+                            Internet
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="internet">
+                            <li><a class="dropdown-item" href="internet.html"
+                                    title="Klient-server-modellen">Klient-server-modellen</a></li>
+                            <li><a class="dropdown-item" href="internet.html#kommunikation"
+                                    title="Internetkommunikation">Internetkommunikation</a>
+                            </li>
+                            <li><a class="dropdown-item" href="internet.html#protokoll" title="Protokoll">Protokoll</a>
+                            </li>
+                            <li><a class="dropdown-item" href="internet.html#http" title="http / https">http / https</a>
+                            </li>
+                            <li><a class="dropdown-item" href="internet.html#ftp" title="ftp / ftps">ftp / ftps</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="tillgänglighet" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" title="Tillgänglighet">
+                            Tillgänglighet
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="tillgänglighet">
+                            <li><a class="dropdown-item" href="tillganglighet.html" title="WCAG">WCAG</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="analys.html" title="Analys">Analys</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="kontakt.html" title="kontakt">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Main, container med innehåll, text på sidan.-->
+    <main>
+        <section class="container-fluid bg-dark fluid">
+            <div class="row text-center">
+                <div class="bg-dark text-white px-4 py-5 text-center">
+                    <div class="py-5">
+                        <h1 class="display-5 text-white">Internet</h1>
+                        <div class="row">
+                            <div class="col-sm pt-4 mx-auto text-start">
+                                <h2 class="display-6 text-white text-start">Klient-server-modellen</h2>
+                                <p class="fs-6 pb-2 text-start">
+                                    Klient-server-modellen innebär att <i>klienten</i> det vill säga till exempel din
+                                    webläsare skickar en beställning (request) till en server och efterfrågar
+                                    information som sedan visas som en websida i din webläsare.
+                                </p>
+                                <p class="fs-6 pb-2 text-start">När man pratar om server och servrar så kan det vara
+                                    lätt att tänka på högljudda serverparker med många datorer i stora kylda lokaler,
+                                    och så kan det ofta se ut, men själva <i>servern</i> är bara programvaran som körs
+                                    på dessa datorer, vilken dator som helst kan egentligen vara en server, så länge den
+                                    har en serverprogramvara installerad.</p>
+                            </div>
+                            <div class="col-xl-4 pt-4 mx-auto text-start">
+                                <h2 class="display-6 fw text-white text-start" id="kommunikation">Internetkommunikation
+                                </h2>
+                                <p class="fs-6 pb-2 text-start">
+                                <h3 class="fw text-white text-start" id="">IP - <i>Internet Protocol</i></h3>Varje dator
+                                på internet får en tilldelad IP-adress, lite som ett telefonnummer, men
+                                vi människor är inga höjdare på att hålla massor av IP-adresser i minnet så därför
+                                anväder vi webadresser i form av <i>domän-namn.toppdomän</i> där domän-namnet till
+                                exempel är <i>youtube</i> och toppdomänen är <i>.com</i>.
+                                </p>
+                                <p class="fs-6 pb-2 text-start">
+                                <h3 class="fw text-white text-start" id="">DNS - <i>Domain Name System</i></h3> Kan
+                                liknas vid en telefonkatalog som används för att
+                                tolka en IP-adress <a href="https://youtu.be/iik25wqIuFo" target="_new"
+                                    style="color:orange">142.250.74.46</a> till en adress som vi människor kan
+                                förstå <a href="https://www.youtube.com" alt="Länk till youtube.com" target="_top"
+                                    style="color:orange">https://www.youtube.com</a>.
+                                </p>
+                                <!--Videoklipp under Internetkommunikation-->
+                                <p class="fs-6 pb-2 text-start">
+                                <div class="col-md mx-auto ratio ratio-16x9" position="relative">
+                                    <iframe src="https://www.youtube.com/embed/WD-1YITgfnQ" title="YouTube video player"
+                                        frameborder="0"
+                                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                </p>
+                            </div>
+                            <div class="col-md pt-4 mx-auto text-start">
+                                <h2 class="display-6 fw text-white text-start" id="protokoll">Protokoll</h2>
+                                <p class="fs-6 pb-2 text-start">För att all kommunikation på internet ska fungera så
+                                    måste alla datorer använda samma uppsättning regler, det är detta regelverk som
+                                    kallas protokoll.</p>
+                                <p class="fs-6 pb-2 text-start">Det finns många olika protokoll som används av olika
+                                    tjänster, men de mest grundläggande är TCP som står för Transmission Control
+                                    Protocol och IP som står för Internet Protocol, tillsammas bildar de TCP/IP som
+                                    utgör två delar i <i>fyra-lagersmodellen</i> (applikation-, transport-,
+                                    internet-
+                                    och länklagret) där TCP (som arbetar i transportlagret) ansvarar för att alla
+                                    små
+                                    paket som skickas kommer fram och IP (i internetlagret) ser till att paketen
+                                    hittar
+                                    till rätt dator via IP-adresserna.</p>
+                                <p class="fs-6 pb-2 text-start">Länklagret är det fysiska lagret och utgörs av de
+                                    faktiska sladdarna, switchar och routrar som finns i ditt och andras nätverk.
+                                </p>
+                                <p class="fs-6 pb-2 text-start">Applikationslagret är där protokoll som till exempel
+                                    http, ftp, IMAP och POP återfinns, IMAP och POP är protokoll som används när man
+                                    skickar och tar emot email.</p>
+                            </div>
+                            <div class="row fluid">
+                                <div class="col-sm pt-4 text-start">
+                                    <h2 class="display-6 fw text-white text-start" id="http">HTTP &amp; HTTPS</h2>
+                                    <p class="fs-6 pb-2 text-start">
+                                    <h3 class="fw text-white text-start" id="">HTTP - <i>Hypertext Transfer Protocol</i>
+                                    </h3> är ett kommunikationsprotkoll som
+                                    används
+                                    för att
+                                    överföra data för websidor (jämför html - Hypertext Markup Language) mellan
+                                    klient
+                                    och server.
+                                    </p>
+                                    <p class="fw text-white text-start" id="">
+                                    <h3>HTTPS - <i>Hypertext Transfer Protocol Secure</i></h3> är ett
+                                    kommunikationsprotkoll för krypterad transport av http 
+                                    protokollet och ska skydda mot så kallad <q>man-in-the-middle attack</q> där en obehörig 
+                                    tredje part kan läsa av trafiken mellan klient och servern,
+                                    därför används protokollet bland annat för betalningsöverföringar och annan känslig trafik.
+                                    </p>
+                                    <p class="fw text-white text-start" id="">
+                                        HTTPS kräver att servern har ett digitalt certifikat som är signerat av en betrodd tredje part, man kan se om trafiken till en server är krypterad genom att det visas ett låst hänglås adressfältet.
+                                    </p>
+                                </div>
+                                <div class="col-sm pt-4 text-start">
+                                    <h2 class="display-6 fw text-white text-start" id="ftp">FTP, FTPS &amp; SFTP</h2>
+                                    <p class="fs-6 pb-2 text-start">
+                                    <h3 class="fw text-white text-start" id=""><i>File Transfer Protocol</i></h3> är ett
+                                    kommunikationsprotkoll som används för filöverföring, mellan en klient 
+                                    och en server / serverprogramvara, till exempel om man ska publicera sin 
+                                    websida på ett webhotell så kan man med fördel använda sig av FTP.
+                                    </p>
+                                    <p class="fw text-white text-start" id="">
+                                    <h3>FTPS - <i>SSL File Transfer Protocol</i></h3> är ett sätt att skicka filer krypterat, det använder sig av SSL <i>Secure Socket Layer</i>, det ska dock inte förväxlas med SFTP som använder sig av SSH <i>Secure Shell</i>.<br>
+                                    FTPS är FTP med ett påbyggt lager av säkerhet, inga direkta standarder, använder två portar vid överföring en för handskakning och kontroll av certifikat och en för datatrafiken.
+                                    </p>
+                                    <p class="fw text-white text-start" id="">
+                                        <h3>SFTP - <i>SSH File Transfer Protocol / Secure File Transfer Protocol</i></h3> är ett sätt att skicka filer krypterat, det använder sig av SSH <i>Secure Shell</i>, SFTP är en utveckling ur SSH för att kunna skicka filer säkert, SFTP har tydliga standarder.<br>
+                                        SFTP använder sig bara av en port för all trafik.
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Footern-->
+    <div class="container">
+        <footer aria-label="social"
+            class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 shadow p-3 md-5 bg-body rounded">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="text-muted">Fredrik Törnberg</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="tel:+46706717987" title="Ring mig på 0706-71 79 87"><svg
+                            class="bi" width="24" height="24">
+                            <use xlink:href="#phone"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="mailto:fredrik.tornberg.syne21lin@tucsweden.se"
+                        title="Maila mig på fredrik.tornberg.syne21lin@tucsweden.se"><svg class="bi" width="24"
+                            height="24">
+                            <use xlink:href="#mail"></use>
+                        </svg></a></li>
+                <!--<li class="ms-3"><a class="text-muted" href="https://twitter.com/ftornberg"
+                        title="Besök min twitter"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#twitter"></use>
+                        </svg></a></li>-->
+                <li class="ms-3"><a class="text-muted" href="https://linkedin.com/in/fredriktoernberg"
+                        title="Besök min LinkedIn"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#linkedin"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://github.com/ftornberg" title="Besök min github"><img
+                            src="images/GitHub-Mark-32px.png" width="24" height="24" alt="Github social coding"
+                            title="länk till Github social coding"></a></li>
+
+            </ul>
+        </footer>
+    </div>
+
+    <!--SVG för de små glyfarna under footern, socials-->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="phone" viewBox="0 0 16 16">
+            <path
+                d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z">
+            </path>
+            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+            <symbol id="linkedin" viewBox="0 0 16 16">
+                <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z">
+                </path>
+            </symbol>
+            <!--<symbol id="twitter" viewBox="0 0 16 16">
+                <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z">
+                </path>
+            </symbol>-->
+            <symbol id="mail" viewBox="0 0 16 16">
+                <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z">
+                </path>
+            </symbol>
+    </svg>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
