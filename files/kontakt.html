@@ -39,7 +39,7 @@
                             Klienttekniker
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="klienttekniker">
-                            <li><a class="dropdown-item" href="klienttekniker.html#html" title="HTML">HTML</a></li>
+                            <li><a class="dropdown-item" href="klienttekniker.html" title="HTML">HTML</a></li>
                             <li><a class="dropdown-item" href="klienttekniker.html#css" title="CSS">CSS</a></li>
                             <li><a class="dropdown-item" href="klienttekniker.html#javascript"
                                     title="JavaScript">JavaScript</a></li>
@@ -66,7 +66,7 @@
                             Internet
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="internet">
-                            <li><a class="dropdown-item" href="internet.html#klient"
+                            <li><a class="dropdown-item" href="internet.html"
                                     title="Klient-server-modellen">Klient-server-modellen</a></li>
                             <li><a class="dropdown-item" href="internet.html#kommunikation"
                                     title="Internetkommunikation">Internetkommunikation</a>
@@ -99,13 +99,13 @@
     </nav>
     <!--Main, container för kontaktinformation & kontaktformulär-->
     <main>
-        <section class="container-fluid bg-dark fluid">
+        <div class="container-fluid bg-dark fluid shadow p-3 md-5 rounded">
             <div class="row">
                 <h1 class="visually-hidden" title="kontakt" aria-labelledby="kontakta">Kontakt</h1>
                 <div class="col-md-6">
                     <!--Formuläret-->
                     <div class="bg-dark text-white px-4 py-5 text-center">
-                        <form action="tack.html" onsubmit="hej()" method="post" enctype="text/plain" autocomplete="on">
+                        <form action="tack.html" onsubmit="hej()" method="get" enctype="text/plain" autocomplete="on">
                             <fieldset>
                                 <p>&nbsp</p>
                                 <h2 class="display-6 text-white">Kontaktformulär</h2><br>
@@ -154,31 +154,30 @@
                         </form>
                     </div>
                 </div>
-        </section>
-        <article>
-            <div class="col-md-6">
-                <div class="text-white px-4 py-5 text-center">
-                    <div class="py-5">
-                        <h2 class="display-6 text-white" id="kontakta">Kontakta mig</h2><br>
-                        <div class="col-lg-6 mx-auto">
-                            <p><img class="img-fluid rounded-3" src="images/profilbild.JPG" width="50%"
-                                    alt="Svartvit profilbild på mig, Fredrik." role="none"></p>
-                            <p class="fs-5 mb-4">Fredrik Törnberg</p>
-                            <p class="fs-6 mb-4">
-                                Systemutvecklare .NET<br>
-                                Klass: syne21lin
-                            </p>
-                            <p class="fs-6 mb-4">
-                                <a href="https://linkedin.com/in/fredriktoernberg" title="Fredrik Törnberg på LinkedIn"
-                                    class="link-light">LinkedIn</a>
-                                | <a href="mailto:fredrik.tornberg.syne21lin@tucsweden.se"
-                                    title="fredrik.tornberg.syne21lin@tucsweden.se" class="link-light">TUC-mail</a>
-                                | <a href="tel:+46706717987" title="0706-71 79 87" class="link-light">Telefon</a>
+                <div class="col-md-6">
+                    <div class="text-white px-4 py-5 text-center">
+                        <div class="py-5">
+                            <h2 class="display-6 text-white" id="kontakta">Kontakta mig</h2><br>
+                            <div class="col-lg-6 mx-auto">
+                                <p><img class="img-fluid rounded-3" src="images/profilbild.JPG" width="50%"
+                                        alt="Svartvit profilbild på mig, Fredrik." role="none"></p>
+                                <p class="fs-5 mb-4">Fredrik Törnberg</p>
+                                <p class="fs-6 mb-4">
+                                    Systemutvecklare .NET<br>
+                                    Klass: syne21lin
+                                </p>
+                                <p class="fs-6 mb-4">
+                                    <a href="https://linkedin.com/in/fredriktoernberg"
+                                        title="Fredrik Törnberg på LinkedIn" class="link-light">LinkedIn</a>
+                                    | <a href="mailto:fredrik.tornberg.syne21lin@tucsweden.se"
+                                        title="fredrik.tornberg.syne21lin@tucsweden.se" class="link-light">TUC-mail</a>
+                                    | <a href="tel:+46706717987" title="0706-71 79 87" class="link-light">Telefon</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </article>
+        </div>
     </main>
     <!--footer-->
     <div class="container">
